@@ -1,6 +1,6 @@
 ## Matrix inversion and caching results
 
-## Write a short comment describing this function
+## This function is to set/get matrix and inverse
 
 CacheMat <- function(x = matrix()) {
   X<- NULL
@@ -16,7 +16,7 @@ CacheMat <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function is to calculate or fetch from cache inverse
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
